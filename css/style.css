@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#tree{
+    background-color: antiquewhite;
+}
+
+#navbar123{
+    margin-top:-5em;
+    
+}
+
+#aa{
+    background-image: url(/image/vecteezy_delicious-burger-and-fries-on-a-white-background-perfect-for_65316845.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+hr{
+    background-color: white;
+    height: 4px;
+    width: 100%;
+}
+.icon,.icon1,.icon2,.icon3{
+    text-align: center;
+    margin-right:0.4em ;
+    transition: all 3s ease;
+}
+.icon:hover{
+    background-color:blue;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.icon1:hover{
+    background-color:orangered;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.icon2:hover{
+    background-color:rgb(131, 96, 96);
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.icon3:hover{
+    background-color:blue;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+#working-time li{
+        list-style: none;
+}
+
+#working-time li a{
+        text-decoration: none;
+}
+
+#link{
+    text-decoration: none;
+}

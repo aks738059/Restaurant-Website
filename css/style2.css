@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#about-banner{
+    background-image: url(/image/menu_banner.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 300px;
+}
+
+hr{
+    background-color: white;
+    height: 4px;
+    width: 100%;
+}
+.icon,.icon1,.icon2,.icon3{
+    text-align: center;
+    margin-right:0.4em ;
+    transition: all 3s ease;
+}
+.icon:hover{
+    background-color:blue;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.icon1:hover{
+    background-color:orangered;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.icon2:hover{
+    background-color:rgb(131, 96, 96);
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.icon3:hover{
+    background-color:blue;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+#working-time li{
+        list-style: none;
+}
+
+#working-time li a{
+        text-decoration: none;
+}
+
+#link{
+    text-decoration: none;
+}
